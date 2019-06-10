@@ -114,18 +114,24 @@
         android:orientation="horizontal"
         android:padding="10dp">
         <ImageView
+            android:id="@+id/google"
+            android:clickable="true"
             android:layout_margin="10dp"
             android:padding="-7dp"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:src="@drawable/google"/>
         <ImageView
+            android:id="@+id/fb"
+            android:clickable="true"
             android:layout_margin="10dp"
             android:padding="-7dp"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:src="@drawable/fb"/>
         <ImageView
+            android:id="@+id/insta_link"
+            android:clickable="true"
             android:layout_margin="10dp"
             android:padding="-7dp"
             android:layout_width="50dp"
